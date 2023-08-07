@@ -17,6 +17,12 @@ export const Pagina1Screen = () => {
           navigatior.dispatch(CommonActions.navigate({name: 'Pagina2Screen'}))
         }
       />
+      <Button
+        title="Ir persona"
+        onPress={() =>
+          navigatior.dispatch(CommonActions.navigate({name: 'Persona'}))
+        }
+      />
     </View>
   );
 };
